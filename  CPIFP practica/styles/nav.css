@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-color: #f4f6f7;
+}
+nav{
+    background-color: rgb(255, 115, 0);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+h1 ,a{
+    color: white;
+}
+h1{
+    margin-left: 200px;
+margin-right: 500px;    
+}
+a{
+    margin-left: 20px;
+}
