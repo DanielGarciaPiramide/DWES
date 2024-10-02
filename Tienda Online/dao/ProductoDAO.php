@@ -87,9 +87,3 @@ class ProductoDAO {
     }
 }
 ?>
-
-
-
-<q>
-
-</q>
