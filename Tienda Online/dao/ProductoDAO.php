@@ -14,7 +14,7 @@ class ProductoDAO {
         $this->productos[] = new Producto(5, "Producto 5", "Descripción del producto 3", "Electrónica", 2, true);
 
     }
-       public function addProducto($nombre, $descripcion, $categoria, $precio, $destacado) {
+    public function addProducto($nombre, $descripcion, $categoria, $precio, $destacado) {
 
         $this->productos[] = new Producto(rand(1,100), $nombre, $descripcion, $categoria, $precio, $destacado);
 
@@ -76,9 +76,6 @@ class ProductoDAO {
         foreach ($this->productos as $producto) {
     
             if ($producto->getNombre() === $nombre) {
-
-                
-    
                 array_push($productosFiltrados,$producto);
             }
         }
